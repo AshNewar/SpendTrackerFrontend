@@ -9,7 +9,7 @@ import { auth, provider } from './Firebase'
 import { signInWithPopup } from 'firebase/auth'
 import axios from "axios"
 
-export const server = 'http://localhost:8000'
+export const server = 'https://spendtracker-l05r.onrender.com'
 const LoginPage = () => {
     const navigate = useNavigate();
     const [data, setData] = useState({ name: "", income: "" });
